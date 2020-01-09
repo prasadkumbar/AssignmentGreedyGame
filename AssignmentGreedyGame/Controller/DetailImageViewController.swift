@@ -10,10 +10,14 @@ import UIKit
 
 class DetailImageViewController: UIViewController {
 
+    @IBOutlet weak var fullScreenImage: UIImageView!
+    
+    var emptyImage = UIImage()
+   // var emptyString = String()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        fullScreenImage.image = emptyImage
     }
     
 

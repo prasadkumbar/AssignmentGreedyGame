@@ -7,3 +7,8 @@
 //
 
 import Foundation
+class APIInterface{
+    
+    static let Base_URL = "https://jsonplaceholder.typicode.com"
+    
+}
